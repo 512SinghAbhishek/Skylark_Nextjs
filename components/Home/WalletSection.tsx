@@ -34,11 +34,11 @@ const WalletSection = () => {
                                     Meta mask
                                 </h3>
 
-                                <p className="text text-center pb-5">
+                                {/* <p className="text text-center pb-5">
                                     Complete for the top{" "}
                                     <br className="hidden xl:block" /> places
                                     holder
-                                </p>
+                                </p> */}
 
                                 <img
                                     className="w-3/5 mx-auto"
@@ -68,11 +68,11 @@ const WalletSection = () => {
                                     Dorado Wallet
                                 </h3>
 
-                                <p className="text text-center pb-5">
+                                {/* <p className="text text-center pb-5">
                                     Complete for the top{" "}
                                     <br className="hidden xl:block" /> places
                                     holder
-                                </p>
+                                </p> */}
 
                                 <img
                                     className="w-3/5 mx-auto"
@@ -102,11 +102,11 @@ const WalletSection = () => {
                                     Trust Wallet
                                 </h3>
 
-                                <p className="text text-center pb-5">
+                                {/* <p className="text text-center pb-5">
                                     Complete for the top{" "}
                                     <br className="hidden xl:block" /> places
                                     holder
-                                </p>
+                                </p> */}
 
                                 <img
                                     className="w-3/5 mx-auto"
@@ -136,11 +136,11 @@ const WalletSection = () => {
                                     Pancake Swap
                                 </h3>
 
-                                <p className="text text-center pb-5">
+                                {/* <p className="text text-center pb-5">
                                     Complete for the top{" "}
                                     <br className="hidden xl:block" /> places
                                     holder
-                                </p>
+                                </p> */}
 
                                 <img
                                     className="w-3/5 mx-auto"
@@ -170,11 +170,11 @@ const WalletSection = () => {
                                     Polygon
                                 </h3>
 
-                                <p className="text text-center pb-5">
+                                {/* <p className="text text-center pb-5">
                                     Complete for the top{" "}
                                     <br className="hidden xl:block" /> places
                                     holder
-                                </p>
+                                </p> */}
 
                                 <img
                                     className="w-3/5 mx-auto"

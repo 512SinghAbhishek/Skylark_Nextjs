@@ -113,7 +113,7 @@ const Header = () => {
 
                         <div className="lg:mr-3 xl:mr-8">
                             <Link
-                                href="/buy"
+                                href="#"
                                 className={`text-lg font-EvilEmpire text-center text-white ${
                                     active === "STAKE" &&
                                     "underline underline-offset-4 decoration-4"
@@ -126,14 +126,15 @@ const Header = () => {
 
                         <div className="lg:mr-3 xl:mr-8">
                             <Link
-                                href="/#play-and-earn-section"
+                                href="#"
                                 className={`text-lg font-EvilEmpire text-center text-white ${
                                     active === "PLAY" &&
                                     "underline underline-offset-4 decoration-4"
                                 }`}
                                 onClick={() => handleActive("PLAY")}
                             >
-                                <Scroll
+                                Play
+                                {/* <Scroll
                                     activeClass="active"
                                     to="play-and-earn-section"
                                     spy={true}
@@ -142,28 +143,28 @@ const Header = () => {
                                     duration={500}
                                 >
                                     PLAY
-                                </Scroll>
+                                </Scroll> */}
                             </Link>
                         </div>
 
                         <div>
                             <Link
-                                href="/#wallet-section"
+                                href="#"
                                 className={`text-lg font-EvilEmpire text-center text-yellow-300 ${
                                     active === "Wallet Connect" && ""
                                 }`}
                                 onClick={() => handleActive("Wallet Connect")}
                             >
-                                <Scroll
+                                {/* <Scroll
                                     activeClass="active"
                                     to="wallet-section"
                                     spy={true}
                                     smooth={true}
                                     offset={0}
                                     duration={1500}
-                                >
+                                > */}
                                     Wallet Connect
-                                </Scroll>
+                                {/* </Scroll> */}
                             </Link>
                         </div>
                     </div>
@@ -299,7 +300,7 @@ const Header = () => {
 
                                 <li>
                                     <Link
-                                        href="/buy"
+                                        href="#"
                                         className={`block py-2 pl-3 pr-4 text-gray-700 rounded ${
                                             active === "STAKE" && "bg-[#27e124]"
                                         }`}
@@ -310,42 +311,42 @@ const Header = () => {
 
                                 <li>
                                     <Link
-                                        href="/#play-and-earn-section"
+                                        href="#"
                                         className={`block py-2 pl-3 pr-4 text-gray-700 rounded ${
                                             active === "PLAY" && "bg-[#27e124]"
                                         }`}
                                     >
-                                        <Scroll
+                                        {/* <Scroll
                                             activeClass="active"
                                             to="play-and-earn-section"
                                             spy={true}
                                             smooth={true}
                                             offset={0}
                                             duration={500}
-                                        >
+                                        > */}
                                             PLAY
-                                        </Scroll>
+                                        {/* </Scroll> */}
                                     </Link>
                                 </li>
 
                                 <li>
                                     <Link
-                                        href="/#wallet-section"
+                                        href="#"
                                         className={`block py-2 pl-3 pr-4 text-yellow-300 rounded ${
                                             active === "Wallet Connect" &&
                                             "bg-[#27e124]"
                                         }`}
                                     >
-                                        <Scroll
+                                        {/* <Scroll
                                             activeClass="active"
                                             to="wallet-section"
                                             spy={true}
                                             smooth={true}
                                             offset={0}
                                             duration={1500}
-                                        >
+                                        > */}
                                             Wallet Connect
-                                        </Scroll>
+                                        {/* </Scroll> */}
                                     </Link>
                                 </li>
 
